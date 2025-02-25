@@ -1,0 +1,436 @@
+{
+  "productos": {
+    "accesorios_de_tecnologia": [
+      {
+        "id": 1,
+        "nombre": "Cargador Inalámbrico 1Hora ",
+        "descripcion": "Cargador GAR151 Base Carga Rápida 15W. Compatible con: Samsung y iphone.",
+        "precio": 14.99,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_671007-MCO51135041292_082022-O.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Auriculares de diadema Sony WH-CH720 Bluetooth y Noise Cancelling",
+        "descripcion": "Disfruta con voces naturales, un sonido nítido y un ajuste equilibrado gracias al procesador integrado V1 y a Digital Sound Enhancement Engine (DSEE), que crean un sonido de alta calidad tal y como lo concibió el artista.",
+        "precio": 59.99,
+        "imagen": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202302/20/00138545856965____1__1200x1200.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "SOPORTE BASE XTECH PARA LAPTOP/NOTEBOOK HASTA 17″  PLEGABLE",
+        "descripcion": " Ideal para portátiles (notebooks / Laptops) desde 11″ hasta 17″.",
+        "precio": 15.49,
+        "imagen": "https://www.computron.com.ec/wp-content/uploads/2024/07/XTA-130.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Adaptador USB C a HDMI, 4K 60 Hz",
+        "descripcion": "Adaptador de USB-C a HDMI para conectar dispositivos a pantallas. Transmite audio y video desde tu laptop o dispositivos móviles, con este adaptador.",
+        "precio": 12.99,
+        "imagen": "https://www.steren.com.ec/media/catalog/product/cache/b69086f136192bea7a4d681a8eaf533d/image/21820e794/adaptador-usb-c-a-hdmi-4k-60-hz.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "XVX M84 75% Teclado Mecánico Inalámbrico/Cableado, Teclado de Juego Intercambiable en Caliente, N-Key Rollover RGB Personalizado para Windows Mac PC, Gateron Yellow Switch",
+        "descripcion": "El teclado mecánico inalámbrico / con cable XVX M84 ofrece conectividad de dos modos, teclado con interruptores de intercambio en caliente, personalización definitiva con teclado RGB y diseño Compact TKL con teclas de perfil XVX únicas.",
+        "precio": 79.99,
+        "imagen": "https://m.media-amazon.com/images/I/71jAUlz7KPL._AC_SL1500_.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "RATÓN INALÁMBRICO G502 X LIGHTSPEED PARA GAMING",
+        "descripcion": "G502 X LIGHTSPEED es la última adición a la legendaria gama G502. Con nuestros primerísimos interruptores LIGHTFORCE híbridos óptico-mecánicos y un protocolo actualizado de tecnología inalámbrica LIGHTSPEED con una tasa de respuesta un 68% más rápida que la generación anterior.",
+        "precio": 49.99,
+        "imagen": " https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g502x-lightspeed/gallery/g502x-lightspeed-gallery-1-white.png?v=1"
+      },
+      {
+        "id": 7,
+        "nombre": "Cargador Solar, Banco de Energía Solar Portátil",
+        "descripcion": "Banco de Energía Solar Portátil de 38800mAh para Todos los Celulares, Paquete de Batería Impermeable, Cargador de Energía de Respaldo Externo Exterior Dual USB 5V Salidas Linternas LED, Perfecto para Viajar en Camping.",
+        "precio": 14.99,
+        "imagen": "https://m.media-amazon.com/images/I/71UsNymX-vL._AC_SL1449_.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Hub USB 3.0 de 4 Puertos",
+        "descripcion": "Transforma 1 puerto USB 3.0 en 4 puertos de alta velocidad para transmisión de datos, es 10 veces más rápido que otros hubs.",
+        "precio": 14.99,
+        "imagen": "https://maxitec.vtexassets.com/arquivos/ids/195976/maxitec-targus-hub-usb-30-de-4-puertos-ach124us-1.jpg?v=638304359585670000"
+      },
+      {
+        "id": 9,
+        "nombre": "CREATIVE DESIGN Estación de carga",
+        "descripcion": "Estación de carga versátil 6 en 1: nuestra estación de carga para iPhone viene con 6 cables y un convertidor de adaptador tipo A a tipo C, simplemente diciendo adiós a los infinitos adaptadores y enredos de cables. Y cada puerto de 2.4 A se carga un 80% más rápido que otros cargadores regulares de 2 A o menos.",
+        "precio": 36.99,
+        "imagen": "https://m.media-amazon.com/images/I/611XS3zhawL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Gafas de realidad virtual",
+        "descripcion": "los lentes 3D de realidad virtual están equipados con auriculares para teléfonos inteligentes de 4.5 a 6.0 pulgadas, gafas de realidad virtual Blu-ray VR (color negro).",
+        "precio": 119.99,
+        "imagen": "https://i.blogs.es/83bea8/1366_2000/450_1000.jpeg"
+      }
+    ],
+    "electrodomesticos": [
+      {
+        "id": 1,
+        "nombre": "Oster Licuadora 550W 2 Velocidades + Pulso con Vaso de Vidrio 1.5L",
+        "descripcion": "La Licuadora Oster 550 W te permite aprovechar al máximo su potente motor de 550 vatios, que garantiza un rendimiento óptimo y resultados consistentes en cada uso. Con sus 2 velocidades diferentes, puedes ajustar la potencia según tus preferencias y la consistencia que deseas lograr en tus mezclas. Ya sea que necesites picar hielo, mezclar frutas y verduras, o preparar deliciosos batidos, esta licuadora es tu aliada perfecta.",
+        "precio": 65.99,
+        "imagen": "https://www.todohogar.com/219811/oster-licuadora-550w-2-velocidades-pulso-con-vaso-de-vidrio-15l.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "HORNO MICROONDAS SAMSUNG 23 LTS PANEL DIGITAL 1200W",
+        "descripcion": "Microondas digital con grill, 11 niveles de potencia, temporizador de cocción, función de memoria y bloqueo para niños.",
+        "precio": 89.99,
+        "imagen": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_3000,f_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/7316b3b6-e21b-11ee-8d9b-beac93c30dbd.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Cafetera programable",
+        "descripcion": "Cafetera con temporizador y función de apagado automático.",
+        "precio": 29.99,
+        "imagen": "https://example.com/imagenes/cafetera-programable.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Aspiradora robot",
+        "descripcion": "Aspiradora robot con sensores inteligentes y autonomía de 120 minutos.",
+        "precio": 159.99,
+        "imagen": "https://example.com/imagenes/aspiradora-robot.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Plancha de vapor",
+        "descripcion": "Plancha con sistema de vapor para una planchado fácil y rápido.",
+        "precio": 35.49,
+        "imagen": "https://example.com/imagenes/plancha-vapor.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Ventilador de torre",
+        "descripcion": "Ventilador de torre con control remoto y 3 velocidades.",
+        "precio": 69.99,
+        "imagen": "https://example.com/imagenes/ventilador-torre.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Refrigerador compacto",
+        "descripcion": "Refrigerador compacto con dos compartimentos y control de temperatura.",
+        "precio": 189.99,
+        "imagen": "https://example.com/imagenes/refrigerador-compacto.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Batidora de mano",
+        "descripcion": "Batidora ergonómica con múltiples accesorios y 5 velocidades.",
+        "precio": 24.99,
+        "imagen": "https://example.com/imagenes/batidora-mano.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Horno eléctrico",
+        "descripcion": "Horno eléctrico con capacidad de 35 litros y 6 funciones de cocción.",
+        "precio": 89.99,
+        "imagen": "https://example.com/imagenes/horno-electrico.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Freidora sin aceite",
+        "descripcion": "Freidora de aire para cocinar alimentos crujientes sin aceite.",
+        "precio": 99.99,
+        "imagen": "https://example.com/imagenes/freidora-sin-aceite.jpg"
+      }
+    ],
+    "utiles_escolares": [
+      {
+        "id": 1,
+        "nombre": "Mochila escolar",
+        "descripcion": "Mochila con compartimientos y diseño ergonómico para la espalda.",
+        "precio": 29.99,
+        "imagen": "https://example.com/imagenes/mochila-escolar.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Estuche de lápices",
+        "descripcion": "Estuche con múltiples compartimentos para lápices, marcadores y bolígrafos.",
+        "precio": 9.99,
+        "imagen": "https://example.com/imagenes/estuche-lapices.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Cuaderno de hojas rayadas",
+        "descripcion": "Cuaderno con 100 hojas rayadas de 90g, ideal para escribir y tomar notas.",
+        "precio": 2.99,
+        "imagen": "https://example.com/imagenes/cuaderno-rayado.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Carpeta archivadora",
+        "descripcion": "Carpeta de 3 anillos para organizar documentos de manera ordenada.",
+        "precio": 4.99,
+        "imagen": "https://example.com/imagenes/carpeta-archivadora.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Bolígrafos de gel",
+        "descripcion": "Bolígrafos de gel con tinta suave y de secado rápido.",
+        "precio": 3.49,
+        "imagen": "https://example.com/imagenes/boligrafos-gel.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Papel bond",
+        "descripcion": "Papel bond de 80g en resma de 500 hojas, ideal para impresoras.",
+        "precio": 6.99,
+        "imagen": "https://example.com/imagenes/papel-bond.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Regla de 30 cm",
+        "descripcion": "Regla de plástico resistente con medidas en centímetros y milímetros.",
+        "precio": 1.49,
+        "imagen": "https://example.com/imagenes/regla-30cm.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Marcadores de colores",
+        "descripcion": "Set de 12 marcadores de colores brillantes para uso escolar y artístico.",
+        "precio": 8.99,
+        "imagen": "https://example.com/imagenes/marcadores-colores.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Goma de borrar",
+        "descripcion": "Goma de borrar de calidad, ideal para papel y cuadernos.",
+        "precio": 0.99,
+        "imagen": "https://example.com/imagenes/goma-borrar.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Tijeras escolares",
+        "descripcion": "Tijeras con punta redondeada y mango ergonómico para niños.",
+        "precio": 3.99,
+        "imagen": "https://example.com/imagenes/tijeras-escolares.jpg"
+      }
+    ],
+    "belleza_y_joyeria": [
+      {
+        "id": 1,
+        "nombre": "Anillo de plata",
+        "descripcion": "Anillo de plata con detalles elegantes y piedras preciosas.",
+        "precio": 49.99,
+        "imagen": "https://example.com/imagenes/anillo-plata.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Perfume floral",
+        "descripcion": "Perfume de flores frescas con notas de jazmín y rosa.",
+        "precio": 34.99,
+        "imagen": "https://example.com/imagenes/perfume-floral.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Crema hidratante",
+        "descripcion": "Crema hidratante para el rostro con ácido hialurónico.",
+        "precio": 12.99,
+        "imagen": "https://example.com/imagenes/crema-hidratante.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Mascarilla facial",
+        "descripcion": "Mascarilla facial de arcilla para limpieza profunda y suavidad.",
+        "precio": 8.49,
+        "imagen": "https://example.com/imagenes/mascarilla-facial.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Sombra de ojos",
+        "descripcion": "Paleta de sombras de ojos en tonos neutros para un maquillaje natural.",
+        "precio": 19.99,
+        "imagen": "https://example.com/imagenes/sombra-ojos.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Reloj de pulsera",
+        "descripcion": "Reloj de pulsera elegante con correa de cuero y detalles dorados.",
+        "precio": 89.99,
+        "imagen": "https://example.com/imagenes/reloj-pulsera.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Colonia masculina",
+        "descripcion": "Colonia con notas amaderadas y especiadas, perfecta para el día a día.",
+        "precio": 24.99,
+        "imagen": "https://example.com/imagenes/colonia-masculina.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Esmalte de uñas",
+        "descripcion": "Esmalte de uñas de larga duración en color rojo intenso.",
+        "precio": 5.99,
+        "imagen": "https://example.com/imagenes/esmalte-unas.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Collar de oro",
+        "descripcion": "Collar de oro de 18k con un diseño delicado y elegante.",
+        "precio": 149.99,
+        "imagen": "https://example.com/imagenes/collar-oro.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Cepillo de cabello",
+        "descripcion": "Cepillo de cabello con cerdas naturales para un peinado suave.",
+        "precio": 7.99,
+        "imagen": "https://example.com/imagenes/cepillo-cabello.jpg"
+      }
+    ],
+    "instrumentos_musicales": [
+      {
+        "id": 1,
+        "nombre": "Guitarra eléctrica",
+        "descripcion": "Guitarra eléctrica de 6 cuerdas, ideal para rock y metal.",
+        "precio": 199.99,
+        "imagen": "https://example.com/imagenes/guitarra-electrica.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Bajo eléctrico",
+        "descripcion": "Bajo eléctrico con cuerpo de madera y cuerdas de acero.",
+        "precio": 249.99,
+        "imagen": "https://example.com/imagenes/bajo-electrico.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Piano digital",
+        "descripcion": "Piano digital con 88 teclas y sonidos realistas.",
+        "precio": 599.99,
+        "imagen": "https://example.com/imagenes/piano-digital.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Batería electrónica",
+        "descripcion": "Batería electrónica con pads sensibles al tacto y sonidos de alta calidad.",
+        "precio": 499.99,
+        "imagen": "https://example.com/imagenes/bateria-electronica.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Saxofón alto",
+        "descripcion": "Saxofón alto profesional con acabado dorado y sonido cálido.",
+        "precio": 799.99,
+        "imagen": "https://example.com/imagenes/saxofon-alto.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Violín acústico",
+        "descripcion": "Violín acústico de 4 cuerdas con arco y estuche incluido.",
+        "precio": 179.99,
+        "imagen": "https://example.com/imagenes/violin-acustico.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Ukulele soprano",
+        "descripcion": "Ukulele soprano de madera con cuerdas de nylon y tono cálido.",
+        "precio": 39.99,
+        "imagen": "https://example.com/imagenes/ukulele-soprano.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Trompeta de latón",
+        "descripcion": "Trompeta de latón con válvulas de precisión para un sonido claro.",
+        "precio": 349.99,
+        "imagen": "https://example.com/imagenes/trompeta-laton.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Flauta traversa",
+        "descripcion": "Flauta traversa de acero inoxidable con afinación precisa.",
+        "precio": 149.99,
+        "imagen": "https://example.com/imagenes/flauta-traversa.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Teclado musical",
+        "descripcion": "Teclado musical con 61 teclas y 100 sonidos preprogramados.",
+        "precio": 129.99,
+        "imagen": "https://example.com/imagenes/teclado-musical.jpg"
+      }
+    ],
+    "accesorios_para_mascotas": [
+      {
+        "id": 1,
+        "nombre": "Collar para perro",
+        "descripcion": "Collar de nylon ajustable para perros de tamaño mediano.",
+        "precio": 10.99,
+        "imagen": "https://example.com/imagenes/collar-perro.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Jaula para conejos",
+        "descripcion": "Jaula espaciosa con base extraíble para conejos.",
+        "precio": 49.99,
+        "imagen": "https://example.com/imagenes/jaula-conejos.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Cama para gatos",
+        "descripcion": "Cama suave y cómoda para gatos, ideal para el descanso.",
+        "precio": 19.99,
+        "imagen": "https://example.com/imagenes/cama-gatos.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Juguete para perro",
+        "descripcion": "Pelota resistente para jugar con perros grandes y medianos.",
+        "precio": 6.99,
+        "imagen": "https://example.com/imagenes/juguete-perro.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Correa extensible",
+        "descripcion": "Correa extensible de 5 metros para caminatas cómodas.",
+        "precio": 14.99,
+        "imagen": "https://example.com/imagenes/correa-extensible.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Arenero para gatos",
+        "descripcion": "Arenero con tapa y filtro para evitar malos olores.",
+        "precio": 22.99,
+        "imagen": "https://example.com/imagenes/arenero-gatos.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Plato para mascotas",
+        "descripcion": "Plato antideslizante para comida y agua, fácil de limpiar.",
+        "precio": 8.99,
+        "imagen": "https://example.com/imagenes/plato-mascotas.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Rascador para gatos",
+        "descripcion": "Rascador vertical con plataforma para gatos activos.",
+        "precio": 34.99,
+        "imagen": "https://example.com/imagenes/rascador-gatos.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Snacks para perros",
+        "descripcion": "Paquete de snacks naturales para perros con sabores variados.",
+        "precio": 12.99,
+        "imagen": "https://example.com/imagenes/snacks-perros.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Transportadora para mascotas",
+        "descripcion": "Transportadora de viaje para mascotas pequeñas, con ventilación.",
+        "precio": 29.99,
+        "imagen": "https://example.com/imagenes/transportadora-mascotas.jpg"
+      }
+    ]
+  }
+}
