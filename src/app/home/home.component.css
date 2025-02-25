@@ -1,0 +1,35 @@
+.carousel-img {
+    max-width: 2000px; /* Ajusta el ancho máximo */
+    max-height: 2500px; /* Ajusta la altura máxima */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar */
+    display: block; /* Evita espacios extra */
+  margin: auto; /* Centra la imagen horizontalmente */
+}  
+.carousel-img2 {
+    max-width: 6000px; /* Ajusta el ancho máximo */
+    max-height: 2000px; /* Ajusta la altura máxima */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar */
+    display: block; /* Evita espacios extra */
+    margin: auto; /* Centra la imagen horizontalmente */
+}
+.carousel-img3 {
+    max-width: 2000px; /* Ajusta el ancho máximo */
+    max-height: 2500px; /* Ajusta la altura máxima */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar */
+    display: block; /* Evita espacios extra */
+    margin: auto; /* Centra la imagen horizontalmente */
+}
+.carousel-img4 {
+    max-width: 2000px; /* Ajusta el ancho máximo */
+    max-height: 2500px; /* Ajusta la altura máxima */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar */
+    display: block; /* Evita espacios extra */
+    margin: auto; /* Centra la imagen horizontalmente */
+}
+.carousel-img5 {
+    max-width: 2000px; /* Ajusta el ancho máximo */
+    max-height: 2500px; /* Ajusta la altura máxima */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar */
+    display: block; /* Evita espacios extra */
+    margin: auto; /* Centra la imagen horizontalmente */
+}
