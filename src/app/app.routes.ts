@@ -4,6 +4,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { Pagina404Component } from './pagina404/pagina404.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { ContactosComponent } from './contactos/contactos.component';
+import { MascotasComponent } from './categoria/mascotas/mascotas.component';
 
 export const routes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -12,4 +13,5 @@ export const routes: Routes = [
     {path:'contactos', component: ContactosComponent},
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: Pagina404Component },
+    { path: 'mascotas', component:MascotasComponent  }
 ];
