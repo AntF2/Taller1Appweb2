@@ -1,0 +1,91 @@
+/* Título de la sección */
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para las tarjetas de productos */
+.product-card {
+    max-width: 20rem;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.product-content {
+    padding: 1.25rem;
+}
+
+.product-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.product-description {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #4b5563;
+}
+
+.product-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: white;
+    background-color: #3b82f6;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.product-btn:hover {
+    background-color: #2563eb;
+}
+
+.arrow-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.product-btn:hover .arrow-icon {
+    transform: translateX(0.25rem);
+}
+
+/* Estilos para el contenedor de productos */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.justify-center {
+    justify-content: center;
+}

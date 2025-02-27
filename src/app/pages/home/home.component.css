@@ -1,35 +1,45 @@
-.carousel-img {
-    max-width: 2000px; /* Ajusta el ancho máximo */
-    max-height: 2500px; /* Ajusta la altura máxima */
-    object-fit: cover; /* Mantiene la proporción sin distorsionar */
-    display: block; /* Evita espacios extra */
-  margin: auto; /* Centra la imagen horizontalmente */
-}  
-.carousel-img2 {
-    max-width: 6000px; /* Ajusta el ancho máximo */
-    max-height: 2000px; /* Ajusta la altura máxima */
-    object-fit: cover; /* Mantiene la proporción sin distorsionar */
-    display: block; /* Evita espacios extra */
-    margin: auto; /* Centra la imagen horizontalmente */
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
 }
-.carousel-img3 {
-    max-width: 2000px; /* Ajusta el ancho máximo */
-    max-height: 2500px; /* Ajusta la altura máxima */
-    object-fit: cover; /* Mantiene la proporción sin distorsionar */
-    display: block; /* Evita espacios extra */
-    margin: auto; /* Centra la imagen horizontalmente */
+
+.category-card img {
+    border-radius: 50%;
 }
-.carousel-img4 {
-    max-width: 2000px; /* Ajusta el ancho máximo */
-    max-height: 2500px; /* Ajusta la altura máxima */
-    object-fit: cover; /* Mantiene la proporción sin distorsionar */
-    display: block; /* Evita espacios extra */
-    margin: auto; /* Centra la imagen horizontalmente */
+
+/* Carrusel */
+.carousel-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
 }
-.carousel-img5 {
-    max-width: 2000px; /* Ajusta el ancho máximo */
-    max-height: 2500px; /* Ajusta la altura máxima */
-    object-fit: cover; /* Mantiene la proporción sin distorsionar */
-    display: block; /* Evita espacios extra */
-    margin: auto; /* Centra la imagen horizontalmente */
+
+[data-carousel-item] {
+    display: none;
+}
+
+[data-carousel-item]:first-child {
+    display: block;
+}
+
+/* Categorías */
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ofertas */
+.offer img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 250px;
 }

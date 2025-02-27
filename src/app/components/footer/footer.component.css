@@ -1,0 +1,86 @@
+/* Aseguramos que el footer siempre quede al final */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-content {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+    padding: 2rem 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-img {
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.footer-logo-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.footer-text-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-text-link:hover {
+    text-decoration: underline;
+}
