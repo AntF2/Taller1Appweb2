@@ -1,33 +1,103 @@
+/* Contenedor principal de la suscripción */
 .suscripcion-container {
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background: #f8f8f8;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
-    margin: 20px auto;
+    margin: 0 auto;
+    margin-top: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Título */
+.suscripcion-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Descripción */
+.suscripcion-container p {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Formulario de suscripción */
 .suscripcion-form {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     gap: 10px;
-    margin-top: 15px;
 }
+
+/* Campo de entrada de correo electrónico */
 .suscripcion-form input {
-    padding: 10px;
-    width: 70%;
+    width: 250px;
+    padding: 12px;
+    border-radius: 25px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Efecto de enfoque en el campo de entrada */
+.suscripcion-form input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Botón de suscripción */
 .suscripcion-form button {
-    background: #d32f2f;
+    padding: 12px 25px;
+    background-color: #4CAF50;
     color: white;
-    padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+/* Efecto hover en el botón */
 .suscripcion-form button:hover {
-    background: #b71c1c;
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+/* Animación para el contenedor */
+.suscripcion-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .suscripcion-container {
+        padding: 30px;
+    }
+
+    .suscripcion-container h2 {
+        font-size: 1.6rem;
+    }
+
+    .suscripcion-container p {
+        font-size: 1rem;
+    }
+
+    .suscripcion-form input {
+        width: 200px;
+    }
+
+    .suscripcion-form button {
+        font-size: 0.9rem;
+    }
 }

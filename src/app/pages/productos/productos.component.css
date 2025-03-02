@@ -1,91 +1,136 @@
 /* Título de la sección */
 .titulo {
-    font-size: 2rem;
-    font-weight: bold;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-top: 20px;
+    background-color: #D5ED9F;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    padding: 10px; /* Añadido para crear más espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados para suavizar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-/* Estilos para las tarjetas de productos */
+/* Contenedor principal de las tarjetas */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Tarjeta de producto */
 .product-card {
-    max-width: 20rem;
-    background-color: white;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.75rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    background-color: #FFEB00;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: pointer; /* Añadido para indicar que es interactivo */
 }
 
+/* Efecto al pasar el mouse sobre la tarjeta */
 .product-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #FFDC00; /* Cambio de color para destacar la tarjeta */
 }
 
+/* Imagen del producto */
 .product-img {
     width: 100%;
-    height: auto;
+    height: 200px;
     object-fit: cover;
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
+    transition: transform 0.3s ease;
 }
 
+/* Efecto al pasar el mouse sobre la imagen */
+.product-card:hover .product-img {
+    transform: scale(1.1);
+}
+
+/* Contenido de la tarjeta */
 .product-content {
-    padding: 1.25rem;
+    padding: 20px;
+    text-align: center;
 }
 
 .product-title {
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #1f2937;
+    font-size: 1.6rem;
+    color: #5CB338;
+    font-weight: 700;
+    margin: 10px 0;
+    transition: color 0.3s ease;
 }
 
+/* Cambio de color al pasar el mouse sobre el título */
+.product-card:hover .product-title {
+    color: black;
+}
+
+/* Descripción del producto */
 .product-description {
-    margin-bottom: 1rem;
     font-size: 1rem;
-    color: #4b5563;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
+/* Botón de ver productos */
 .product-btn {
     display: inline-flex;
     align-items: center;
-    padding: 0.75rem 1rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: white;
-    background-color: #3b82f6;
-    border-radius: 0.5rem;
-    transition: background-color 0.3s;
+    background-color: #F0A04B;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Espaciado arriba del botón */
 }
 
+/* Efecto al pasar el mouse sobre el botón */
 .product-btn:hover {
-    background-color: #2563eb;
+    background-color: #FFF6B3;
 }
 
+/* Icono de la flecha */
 .arrow-icon {
-    width: 1rem;
-    height: 1rem;
-    margin-left: 0.5rem;
-    transition: transform 0.3s;
+    width: 14px;
+    height: 10px;
+    margin-left: 8px;
+    fill: white;
+    transition: transform 0.3s ease;
 }
 
+/* Efecto al pasar el mouse sobre el botón */
 .product-btn:hover .arrow-icon {
-    transform: translateX(0.25rem);
+    transform: translateX(5px);
 }
 
-/* Estilos para el contenedor de productos */
-.flex {
-    display: flex;
+/* Añadido: Tooltip que aparece al pasar el ratón sobre los botones */
+.product-btn::after {
+    content: "¡Haz clic para más detalles!";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
 }
 
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
-.gap-4 {
-    gap: 1rem;
-}
-
-.justify-center {
-    justify-content: center;
+/* Mostrar el tooltip */
+.product-btn:hover::after {
+    opacity: 1;
+    visibility: visible;
 }

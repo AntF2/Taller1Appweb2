@@ -1,68 +1,244 @@
-/* Estilos generales */
-body {
-    font-family: 'Arial', sans-serif;
-}
-
 /* Sección de contacto */
+.contactos{
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+    font-family: cursive;
+    font-size: 50px;
+}
 .contact-section {
-    background-color: #f3f4f6;
-    padding: 3rem 1rem;
+    background: url(https://img.freepik.com/foto-gratis/textura-espuma_23-2147927777.jpg);
+    padding: 60px 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeIn 1s ease-out;
 }
 
+
+/* Animación para hacer que la sección de contacto se desplace y se desvanezca */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Contenedor principal */
+.contact-section .max-w-7xl {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo para el formulario */
 .contact-form {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f4f4;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: formSlideIn 0.6s ease-out;
 }
 
+/* Animación para el formulario */
+@keyframes formSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Título del formulario */
+.contact-form h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: orange;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Etiquetas de los campos */
+.contact-form label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Campos de entrada (nombre, correo, mensaje) */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #b8b4b4;
+    margin-top: 6px;
+    font-size: 1rem;
+    color: #333;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    transform: translateY(10px);
+}
+
+/* Efecto de enfoque en los campos de entrada */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+    transform: translateY(0);
+}
+
+/* Estilos para el botón de enviar */
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+/* Estilos para cuando se pasa el mouse sobre el formulario */
+.contact-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Sección de información de contacto */
 .contact-info {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: infoSlideIn 0.8s ease-out;
 }
 
+/* Animación para la sección de información */
+@keyframes infoSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Efecto hover para la información */
+.contact-info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Título de la información de contacto */
+.contact-info h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Lista de contacto */
 .contact-info ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 .contact-info li {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Cambio de color al pasar el mouse sobre los elementos de la lista */
+.contact-info li:hover {
+    transform: translateX(5px);
+    color: #3182ce;
 }
 
 .contact-info svg {
-    margin-right: 1rem;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    color: #3182ce; /* Color azul para los íconos */
 }
 
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-top: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1rem;
-}
-
-.contact-form button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    width: 100%;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #45a049;
+.contact-info span {
+    font-weight: 500;
 }
 
 /* Mapa */
-.map-container iframe {
+.map-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.map-container h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border-radius: 10px;
     border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto hover sobre el iframe del mapa */
+iframe:hover {
+    transform: scale(1.05);
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 40px 10px;
+    }
+
+    .contact-form {
+        padding: 30px;
+    }
+
+    .contact-form h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-info {
+        padding: 20px;
+    }
+
+    .contact-info h3 {
+        font-size: 1.6rem;
+    }
+
+    iframe {
+        height: 300px; /* Asegurar que el mapa sea de un tamaño adecuado para dispositivos móviles */
+    }
 }

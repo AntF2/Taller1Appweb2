@@ -1,45 +1,39 @@
-/* Estilos generales */
-body {
-    font-family: 'Arial', sans-serif;
-}
 
-.category-card img {
-    border-radius: 50%;
-}
-
-/* Carrusel */
-.carousel-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-[data-carousel-item] {
-    display: none;
-}
-
-[data-carousel-item]:first-child {
-    display: block;
-}
-
-/* Categorías */
-.category-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.category-card:hover {
-    transform: scale(1.05);
+.titulo{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #D5ED9F;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+  }
+  .carousel-container {
+    background-color: #f8f9fa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Menos redondeado para que se vea más alargado */
+    padding: 10px; /* Menos padding para más espacio interno */
+    max-width: 900px;
+    height: 500px;
 }
 
-/* Ofertas */
-.offer img {
+#default-carousel {
     max-width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-wrapper {
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-wrapper .carousel-item {
+    height: 100%;
+}
+
+.carousel-wrapper .carousel-item img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    height: 250px;
 }

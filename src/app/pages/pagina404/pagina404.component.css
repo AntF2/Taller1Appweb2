@@ -1,0 +1,96 @@
+/* Contenedor principal de la página 404 */
+.pagina-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Estilo para el código de error */
+.error-codigo {
+    font-size: 10rem;
+    font-weight: 700;
+    color: #e74c3c;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Mensaje de error */
+.error-mensaje {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Descripción adicional */
+.error-descripcion {
+    font-size: 1.125rem;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Estilo para el enlace */
+.error-enlace {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover sobre el enlace */
+.error-enlace:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Estilo para el botón */
+.boton-regresar {
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Efecto hover en el botón */
+.boton-regresar:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+
+/* Efecto de desplazamiento cuando se pasa el mouse sobre el botón */
+.boton-regresar:active {
+    transform: translateY(0);
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .error-codigo {
+        font-size: 6rem;
+    }
+
+    .error-mensaje {
+        font-size: 1.25rem;
+    }
+
+    .error-descripcion {
+        font-size: 1rem;
+    }
+
+    .boton-regresar {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+}

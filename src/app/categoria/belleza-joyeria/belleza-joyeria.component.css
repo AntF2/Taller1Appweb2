@@ -1,33 +1,87 @@
+/* Contenedor principal */
 .container {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .table th, .table td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
-  }
-  
-  .table th {
-    background-color: #f4f4f4;
-  }
-  
-  .product-image {
-    width: 80px;
-    height: auto;
-    border-radius: 5px;
-  }
-  
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: hsl(81, 91%, 91%);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+/* Título */
+.title {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ffc192;
+  margin-bottom: 20px;
+}
+
+/* Tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Encabezado de la tabla */
+.table th {
+  background-color: #9ffec8;
+  color: rgb(6, 6, 6);
+  font-size: 30px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Filas de la tabla */
+.table td {
+  background-color: #ffffff;
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* Hover sobre las filas */
+.table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Imagen de los productos */
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto de imagen al pasar el mouse */
+.product-image:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos para los precios */
+.table td:last-child {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Efecto hover sobre el precio */
+.table td:last-child:hover {
+  color: #2ecc71;
+}
+
+/* Estilos para las filas de productos */
+.table tbody tr {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en las filas de productos */
+.table tbody tr:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
